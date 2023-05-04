@@ -33,11 +33,11 @@ describe('Funcionalidade Página de Produtos', () => {
 
     });
 
-    it.only('Deve adiconar produtos ao carrinho - Usando Comando customizado', () => {
+    it('Deve adiconar produtos ao carrinho - Usando Comando customizado', () => {
         cy.addProdutos('Atlas Fitness Tank', 'S', 'Blue', 1)
     });
 
-    it.only('Deve adiconar produtos ao carrinho - Usando Comando customizado', () => {
+    it('Deve adiconar produtos ao carrinho - Usando Comando customizado', () => {
         cy.addProdutos('Abominable Hoodie', 'XL', 'Green', 5)
     });
 })
